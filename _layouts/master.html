@@ -36,13 +36,20 @@
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
+<!--
 			<ul class="nav nav-tabs">
-				<li class="active">
+				<li>
 					<a href="/index.html">Home</a>
 				</li>
 				<li>
 					<a href="/qbestd.html">QbE STD</a>
 				</li>
+			</ul>
+-->
+			<ul class="nav nav-tabs">
+				{% assign pages_list = site.weighted_pages %}
+				{% assign group = 'navigation' %}
+				{% include pages_list %}
 			</ul>
 		</div>
 	</div>
