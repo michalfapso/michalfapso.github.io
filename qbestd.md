@@ -5,6 +5,8 @@ group: main
 ---
 {% include JB/setup %}
 
+Download the thesis: [PDF](download/thesis_fapso.pdf)
+
 Additional materials to my thesis, notes, source code of tools and relevant scripts.
 
 ## WFSTcn QbE system
